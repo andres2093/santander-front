@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- https://bedu-fef.netlify.app/ -->
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,28 +13,30 @@
 
 <body>
 
-  <header class="header">
-    <!-- Logo con link a la página principal -->
-    <a href="/" class="logo">
-      <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg" alt="Matcha"/>
-    </a>
-    <!-- Menú de navegación -->
-    <nav class="navbar">
-      <ul>
-        <li class="menu-item">Platform</li>
-        <li class="menu-item">Pricing</li>
-        <li class="menu-item">Customers</li>
-        <li class="menu-item">Resources</li>
-        <li class="menu-item">About</li>
-      </ul>
-    </nav>
-    <!-- Contenedor de acciones de usuario -->
-    <div class="actions">
-      <a>Sign In</a>
-      <button>Start free trial</button>
-    </div>
-  </header>
-  
+  <section class="fixed-header">
+    <header class="header">
+      <!-- Logo con link a la página principal -->
+      <a href="/" class="logo">
+        <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/footer_logo.svg" alt="Matcha" />
+      </a>
+      <!-- Menú de navegación -->
+      <nav class="navbar">
+        <ul>
+          <li class="menu-item">Platform</li>
+          <li class="menu-item">Pricing</li>
+          <li class="menu-item">Customers</li>
+          <li class="menu-item">Resources</li>
+          <li class="menu-item">About</li>
+        </ul>
+      </nav>
+      <!-- Contenedor de acciones de usuario -->
+      <div class="actions">
+        <a>Sign In</a>
+        <button>Start free trial</button>
+      </div>
+    </header>
+  </section>
+
 
 
   <h1> Mi primer etiqueta </h1>
@@ -55,10 +59,39 @@
     <input type="email" id="email" name="email" placeholder="Correo"><br><br>
     <input type="password" id="password" name="password" placeholder="Contraseña"><br><br>
     <button type="submit">Enviar</button>
-</form>
+  </form>
 
-<img alt="Logo de matcha" src="https://getmatcha.com/wp-content/themes/getmatcha/img/capterra.png" />
+  <img alt="Logo de matcha" src="https://getmatcha.com/wp-content/themes/getmatcha/img/capterra.png" />
 
+  <section class="promo">
+    <article class="explanatory-video">
+      <video controls
+        poster="https://cdn.videvo.net/videvo_files/video/premium/video0036/thumbnails/computer_code00_small.jpg">
+        <source type="video/webm"
+          src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.webm" />
+        <source type="video/mp4"
+          src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4" />
+      </video>
+      <img src="https://getmatcha.com/wp-content/themes/getmatcha/img/see_how_it_works.png" alt="See how it works" />
+    </article>
+    <article class="publish">
+      <h3>Publish to your blog in minutes, not hours.</h3>
+      <p>
+        Your blog is your most powerful asset to build, engage, and retain a loyal
+        audience. But you don’t have hours to create content that may or may not
+        work. With Matcha, instantly publish from our library of 10,000+
+        professionally written articles and build your email list faster with our
+        powerful conversion tool.
+      </p>
+      <form>
+        <p>Start publishing today:</p>
+        <div>
+          <input type="text" placeholder="Enter email" />
+          <button>Start My Trial</button>
+        </div>
+      </form>
+    </article>
+  </section>
 
 </body>
 

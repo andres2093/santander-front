@@ -19,6 +19,14 @@ button {
   background-color: #025157;
 }
 
+.fixed-header {
+  position: fixed;
+  background-color: white;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
 .header {
   margin-top: 40px;
   margin-left: 20px;
@@ -84,4 +92,50 @@ li {
   padding-bottom: 12px;
   border: 0;
   border-radius: 5px;
+}
+
+.promo {
+  display: flex;
+  width: 70%;
+  margin: 100px auto;
+  align-items: center;
+}
+
+.explanatory-video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.explanatory-video img {
+  width: 120px;
+  margin-top: 10px;
+}
+
+.publish {
+  /* container styles if any */
+  margin-left: 20px;
+}
+
+.publish h3 {
+  font-family: "Alegreya", serif;
+  font-size: 40px;
+  line-height: 48px;
+  color: #025157;
+}
+
+.publish > p {
+  font-size: 16px;
+  color: #343434;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.publish > form {
+  display: flex;
+}
+
+.publish > form p {
+  color: #025157;
+  margin-right: 18px;
 }
