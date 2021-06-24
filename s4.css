@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  width: 400px;
+  height: 400px;
+  /* flex-direction: column;
+  flex-direction: row; */
+
+  /* flex-wrap: wrap;
+  flex-wrap: nowrap; */
+  background-color: blue;
+}
+
+.container > .item {
+  background-color: gray;
+  width: 30%;
+  height: 30px;
+}
+
+/* .main {
+  display: flex;
+}
+
+.main div:nth-of-type(1) {
+  flex-grow: 2;
+}
+
+.main div:nth-of-type(4) {
+  flex-grow: 1;
+} */
+
+.main { 
+  display: flex;
+  width: 300px; 
+} 
+
+.item-1 { flex-basis: 100px ; flex-grow: 1 } 
+
+.item-2 { flex-basis: 100px ; flex-grow: 2 } 
+
+.item-3 { flex-basis: 100px ; flex-grow: 1 } 
+
+.item-4 { flex-basis: 100px ; flex-grow: 1 } 

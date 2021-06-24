@@ -27,6 +27,11 @@ button {
   right: 0;
 }
 
+main {
+  margin-top: 285px;
+  text-align: center;
+}
+
 .header {
   margin-top: 40px;
   margin-left: 20px;
