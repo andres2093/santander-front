@@ -150,7 +150,14 @@ li {
   /* grid-template-columns: 300px 300px; */
   /* grid-template-columns: repeat(2, 300px); */
   /* grid-template-columns: 500px 1fr; */
-  grid-template-columns: 1fr 1fr;
+  /* grid-template-columns: 1fr 1fr; */
+
+  /* RETO 3.1 */
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 330px);
+
+  /* RETO 3.2 */
+  grid-template: repeat(3, 330px) / repeat(2, 1fr);
 }
 
 .feature-art {
