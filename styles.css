@@ -237,6 +237,10 @@ li {
   .navbar, .actions {
     display: none;
   }
+
+  h1 {
+    font-size: 30px;
+  }
 }
 
 /** dispositivos pequeños en vista landscape (horizontal) */
