@@ -245,6 +245,40 @@ li {
   h1 {
     font-size: 30px;
   }
+
+  .banner > img {
+    width: 100%;
+  }
+
+  .promo {
+    flex-direction: column;
+    max-width: 90%;
+  }
+
+  .publish > form {
+    flex-direction: column;
+  }
+
+  .publish > form > input {
+    width: 90%;
+  }
+
+  .publish > form > button {
+    width: 92%;
+  }
+
+  .explanatory-video > video {
+    width: 100%;
+  }
+
+  .publish {
+    margin-top: 10px;
+  }
+
+  .publish > h3 {
+    font-size: 25px;
+    line-height: 1.2;
+  }
 }
 
 /** dispositivos pequeños en vista landscape (horizontal) */
