@@ -232,6 +232,11 @@ li {
   height: 100%;
 }
 
+.carousel-inner {
+  max-height: 100%;
+  height: 450px;
+}
+
 /** dispositivos móviles en vista viewport (vertical) */
 @media (max-width: 575px) {
   /* .navbar, .actions {
